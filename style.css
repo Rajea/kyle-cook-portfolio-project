@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+    margin: 0;
+    line-height: 2;
+
+}
+
+.header {
+    background-color: #679980;
+    padding: 3rem 4rem;
+}
+
+.header-title {
+    color: white;
+    text-align: center;
+}
+
+.about-me-p {
+    
+    margin-left: 3.5rem;
+    margin-right: 2rem;
+
+    
+}
+
+.section {
+    margin-top: 2rem;
+    
+
+}
+
+.section-title {
+    margin-left: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.section.blue {
+    background-color:#679980;
+    padding: 1.5rem 0;
+    color: white;
+}
+
+.skills-ul {
+    list-style: none;
+    text-indent: 1em;
+    font-style: italic;
+    
+    
+}
+
+.skills-ul.img {
+    line-height: 2em;
+    text-indent: 0em;
+    font-style: normal;
+    color: gray;
+}
+
+img {
+    margin-top: 1.5rem;
+}
+
+.contact-section {
+    margin-left: 2.5rem;
+}
+
+
+
+.input {
+    border: 1px solid lightgray;
+    border-radius: 0.3em;
+    outline: none;
+    padding: 0.5em;
+    font-size: 1rem;
+    font-family: inherit;
+    line-height: inherit;
+
+
+}
+
+.input:focus {
+    border-color: hsl(150, 20%, 50%)
+    box-shadow: 0 0 5px 0 hsl(150, 20%, 50%);
+
+}
+
+.labels {
+    margin-bottom: -0.3rem;
+    margin-top: 0.5rem;
+}
+
+.input-no-resize {
+    resize: none;
+}
+.forms.btn {
+    background-color: hsl(4, 91%, 77%);
+    border: none;
+    margin-top: 0.3rem;
+    color: white;
+    padding: 0.2em 0.7em;
+    border-radius: 0.5em;
+    margin-left: 3em;
+}
+
+.forms.btn:hover {
+    background-color: hsl(4, 69%, 55%);
+    box-shadow: 0 0 5px 0 hsl(4, 69%, 65%);
+    
+}
+
+
+.footer-title {
+    text-align: center;
+}
